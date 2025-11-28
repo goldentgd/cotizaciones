@@ -1,5 +1,7 @@
 import { useState } from "react";
-import { GrTechnology, MdOutlineFastfood, FaComputer } from "react-icons/fa";
+import { GrTechnology } from "react-icons/gr";
+import { MdOutlineFastfood } from "react-icons/md";
+import { FaComputer } from "react-icons/fa";
 import ConceptosTi from "./conceptos/ConceptosTi";
 import Saro from "./saro/Saro";
 import Sentinel from "./sentinel/Sentinel";

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaUsers, FaBuilding, FaGlobe } from "react-icons/fa";
+import { GrTechnology, MdOutlineFastfood, FaComputer } from "react-icons/fa";
 import ConceptosTi from "./conceptos/ConceptosTi";
 import Saro from "./saro/Saro";
 import Sentinel from "./sentinel/Sentinel";
@@ -18,22 +18,22 @@ function Configuracion() {
             onClick={() => setSeccion("empresaA")}
             className="cursor-pointer bg-blue-600 text-white rounded-lg shadow hover:shadow-lg p-6 flex flex-col items-center justify-center transition"
           >
-            <FaUsers className="text-4xl mb-2" />
-            <span className="text-lg font-bold">Empresa A</span>
+            <GrTechnology className="text-4xl mb-2" />
+            <span className="text-lg font-bold">Tech</span>
           </div>
           <div
             onClick={() => setSeccion("empresaB")}
             className="cursor-pointer bg-green-600 text-white rounded-lg shadow hover:shadow-lg p-6 flex flex-col items-center justify-center transition"
           >
-            <FaBuilding className="text-4xl mb-2" />
-            <span className="text-lg font-bold">Empresa B</span>
+            <MdOutlineFastfood className="text-4xl mb-2" />
+            <span className="text-lg font-bold">Comers</span>
           </div>
           <div
             onClick={() => setSeccion("empresaC")}
             className="cursor-pointer bg-purple-600 text-white rounded-lg shadow hover:shadow-lg p-6 flex flex-col items-center justify-center transition"
           >
-            <FaGlobe className="text-4xl mb-2" />
-            <span className="text-lg font-bold">Empresa C</span>
+            <FaComputer className="text-4xl mb-2" />
+            <span className="text-lg font-bold">CPTI</span>
           </div>
         </div>
       );
